@@ -30,7 +30,7 @@ body{
 @media (max-width:600px){
   #Logo{
     height: 80px;
-    width: 150px;
+    width: 175px;
   }
   #Logo2{
     height: 50px;
@@ -59,7 +59,7 @@ h3{
 }
 
 h2{
-  color: #000000;
+  color: #263C5A;
   margin-top: 0px;
 }
 
