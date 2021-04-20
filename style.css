@@ -76,7 +76,7 @@ p{
 }
 
 .content-table {
-  background-color: rgba(228, 228, 228, 0.308);  
+  background-color: rgba(228, 228, 228);  
   border-collapse: collapse;
   margin: 0%;
   width: 100%;
@@ -104,7 +104,7 @@ p{
 }
 
 .content-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3a2;
+  background-color: #f3f3f3;
 }
 
 .content-table tbody tr:last-of-type {
