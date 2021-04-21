@@ -1,0 +1,228 @@
+@font-face{
+  font-family: 'Product-Sans';
+  src:url('Product-Sans-Regular.ttf');
+  src:url('Product-Sans-Regular.woff');
+}
+
+* { 
+  font-family: Product Sans;
+}
+body{
+    background: url("Poster2.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+#Logo{
+  height: 110px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Logo2{
+  margin-top: 0%;
+  height: 100px;
+  width: 585px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+  text-align: center;
+  color: #000000;
+  letter-spacing: 0.2px;
+  font-size: 20px;
+}
+
+h2{
+  color: #263C5A;
+  margin-top: 0px;
+  font-size: 28px;
+  letter-spacing: 0.3px;
+}
+
+p{
+  font-size: 16px;
+}
+
+/*=========Table========*/
+
+
+.Table{
+  margin-left:12% ;
+  margin-right: 12%;
+}
+
+.content-table {
+  background-color: rgb(228, 228, 228);  
+  border-collapse: collapse;
+  margin: 0%;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.content-table thead tr {
+  border: black;
+  background-color: #1E66AE;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #1E66AE;
+}
+@media (max-width:1200px) {  
+  .Table{
+    margin-left:12% ;
+    margin-right: 12%;
+  }
+}
+@media (max-width:490px) {
+  .Table{
+    margin-left:3% ;
+    margin-right:3%;
+  } 
+}
+@media(max-width:407px){
+  .content-table{
+    font-size: 10px;
+  }  
+  .Table{
+    margin-left:2% ;
+    margin-right: 2%;
+  }
+}
+@media(max-width:350px){
+  h3{
+    font-size: 13px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  .content-table{
+    font-size: 8px;
+  } 
+  .Table{
+    margin-left:0.5% ;
+    margin-right: 0.5%;
+  }
+
+}
+@media (max-width:330px) {
+  .Table{
+    margin-left:0% ;
+    margin-right:0%;
+  }
+  #Logo2{
+    height: 35px;
+    width: 250px;
+  }
+}
+
+@media (max-width:1000px){
+  #Logo2{
+    height: 80px;
+    width: 430px ;
+  }
+}
+@media (max-width:600px){
+  #Logo{
+    height: 80px;
+    width: 182px;
+  }
+  #Logo2{
+    height: 50px;
+    width: 290px;
+  }
+  h2{
+    font-size: 23px;
+  }
+  h3{
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width:450px){
+  #Logo2{
+    height: 40px;
+    width: 270px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 14px;
+  }
+}
+
+
+/*=======Footer=========*/
+.copyright .icons a:hover {
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+}
+.copyright .icons a {
+  text-decoration: none;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 8px;
+  height: 8px;
+  font-size: 8px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  line-height: 35px;
+  padding: 0.4%;
+  margin-right: 15px;
+  margin-bottom: 1px;
+}
+@media (max-width: 767px) {
+  .footer h2:first-child {
+    margin-top: 10%;
+  }
+  .footer .icons {
+    margin-bottom: 15%;
+  }
+  .footer h4,
+  .footer .mid-btm,
+  .footer .contact p {
+    text-align: left;
+  }
+  .footer .mid-btm {
+    margin-bottom: 10%;
+  }
+  .footer .contact {
+    padding-left: 0%;
+    margin-bottom: 5%;
+  }
+}
+.copyright {
+  background: rgba(255, 255, 255, 0);
+  padding: 10px 0;
+  text-align: center;
+}
+.copyright p {
+  font-size: 15px;
+  color: black;
+}
+
